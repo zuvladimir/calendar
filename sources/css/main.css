@@ -1,0 +1,32 @@
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, dfn, del, p, blockquote, fieldset, input, textarea, select, article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, button {
+     font: 14px/20px Arial, Helvetica, sans-serif;
+     color: #000;
+}
+
+.form-group {
+     margin-bottom: 5px !important;
+}
+
+.ui-datepicker-trigger{
+     display: inline-block !important;
+     position: absolute;
+     right: 1px;
+     top: 1px;
+     cursor: pointer;
+     visibility: hidden;
+}
+.ui-datepicker-prev, .ui-datepicker-next{
+     display: none;
+}
+.ui-datepicker .ui-datepicker-header{
+     background: linear-gradient(to bottom, #4fad49 0%,#337d3a 100%);
+}
+
+.bith_calendar{
+     font-size: 19px; 
+     cursor: pointer; 
+     position: absolute; 
+     right: 5px; 
+     top: 7px; 
+     color: rgba(74, 165, 50, 0.9);
+}
